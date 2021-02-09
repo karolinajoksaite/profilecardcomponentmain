@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color:;
+    margin: 0;
+    background: no-repeat url(images/bg-pattern-top.svg) right 53vw bottom 37vh, no-repeat url(images/bg-pattern-bottom.svg) left 50vw top 50vh;
+    background-color: hsl(185, 75%, 39%);
+}
+.header_pic {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    height: 30% 40%;
+}
+.profile {
+  box-sizing: border-box;
+  width: 350px;
+  height: 375px;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 10px 5px 17px 5px  hsla(185, 76%, 28%, 0.253);
+}
+.profile_pic {
+    border-radius: 50%;
+    border: 5px solid white;
+    transform: translateY(-57px);
+    left: auto;
+}
+h1 {
+    color:hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -50px;
+
+}
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    display: inline-block;
+    padding-left: 5px;
+}
+.personal {
+    border-bottom:1px solid hsl(0, 1%, 86%);
+    height: 18px;
+}
+.location {
+    color:hsl(227, 10%, 46%);
+    font-size: 0.8em;
+    position: relative;
+    top: -53px;
+  
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+   
+}
+.numbers {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    position: relative;
+    top: 10px; 
+}
+.type {
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    position: relative;
+    top: -2px;
+}
+footer {
+    position: relative;
+    top: 250px;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+a {
+    color: hsl(276, 73%, 32%);
+}
